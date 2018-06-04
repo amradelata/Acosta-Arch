@@ -1,0 +1,120 @@
+$primary-color: #8500d2
+$lite-blue: #2b78a6
+
+
+*
+	box-sizing: border-box
+
+body
+	padding: 0
+	margin: 0
+	font-family: 'Roboto Condensed', sans-serif
+	// background: red	
+	// height: 6000px
+
+
+.navbar
+	font-size: 14px
+	height: 0
+	color: #fff
+	z-index: 2
+	background: transparent
+	border: none
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+.navbar .brand
+	float: left
+	width: 40%
+	margin-top: 10px
+.navbar .brand img
+	width: 55px
+	margin-top: 15px
+.navbar .links
+	margin-top: 25px
+.navbar .links li
+	display: block
+	text-transform: uppercase
+	cursor: pointer
+
+.navbar .links li a 
+	color: #000
+	font-weight: bold
+	text-decoration: none
+	transition: 0.30s
+
+.navbar .links li:hover a
+	border-bottom: 5px solid $lite-blue
+	// color: #fff
+
+.hero-section
+	height: 500px
+	margin-top: 80px
+	width: 70%
+	float: right
+
+
+.logo
+	// margin: 0
+	// padding: 0
+	position: relative
+
+	.img-logo
+		position: absolute
+		top: 250px
+		left: 23%
+		width: 130px
+		height: 130px
+		background: #ededed
+		// display: inline-block
+	.black-box
+		position: absolute
+		padding: 15px
+		top: 250px
+		left: 30%
+		background: rgba(23, 23, 23, 0.95)
+		color: #fff
+		width: 300px
+		max-height: 130px
+		p
+			border-bottom: 1px solid $lite-blue
+			padding: 15px
+
+// .as
+// 	width: 200px
+// 	height: 100px
+// 	background: #ccc
+// 	border-bottom: 5px solid $lite-blue
+
+.fancy
+	line-height: 0.5
+	text-align: center
+	// margin-top: 300px
+.fancy span
+	display: inline-block
+	position: relative
+	font-size: 30px
+
+.fancy span:before,
+.fancy span:after 
+	content: ""
+	position: absolute
+	height: 5px
+	border-bottom: 5px solid #000
+	// border-top: 1px solid #000
+	top: 0
+	width: 100px
+
+.fancy span:before 
+	right: 100%
+	margin-right: 15px
+
+.fancy span:after 
+	left: 100%
+	margin-left: 15px
+
+
+
+
+

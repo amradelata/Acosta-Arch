@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.navbar {
+  font-size: 14px;
+  height: 0;
+  color: #fff;
+  z-index: 2;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.navbar .brand {
+  float: left;
+  width: 40%;
+  margin-top: 10px; }
+
+.navbar .brand img {
+  width: 55px;
+  margin-top: 15px; }
+
+.navbar .links {
+  margin-top: 25px; }
+
+.navbar .links li {
+  display: block;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+.navbar .links li a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s; }
+
+.navbar .links li:hover a {
+  border-bottom: 5px solid #2b78a6; }
+
+.hero-section {
+  height: 500px;
+  margin-top: 80px;
+  width: 70%;
+  float: right; }
+
+.logo {
+  position: relative; }
+  .logo .img-logo {
+    position: absolute;
+    top: 250px;
+    left: 23%;
+    width: 130px;
+    height: 130px;
+    background: #ededed; }
+  .logo .black-box {
+    position: absolute;
+    padding: 15px;
+    top: 250px;
+    left: 30%;
+    background: rgba(23, 23, 23, 0.95);
+    color: #fff;
+    width: 300px;
+    max-height: 130px; }
+    .logo .black-box p {
+      border-bottom: 1px solid #2b78a6;
+      padding: 15px; }
+
+.fancy {
+  line-height: 0.5;
+  text-align: center; }
+
+.fancy span {
+  display: inline-block;
+  position: relative;
+  font-size: 30px; }
+
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 5px solid #000;
+  top: 0;
+  width: 100px; }
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px; }
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px; }
+
+/*# sourceMappingURL=style.css.map */
