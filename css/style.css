@@ -4,8 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
-  height: 6000px; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .navbar {
   font-size: 14px;
@@ -250,5 +249,33 @@ body {
     border: 1px solid #000;
     padding: 5px 15px;
     outline: none; }
+
+.footer {
+  margin-top: 500px; }
+  .footer p {
+    color: #7d7d7d; }
+  .footer h4 {
+    margin-bottom: 35px; }
+  .footer h5 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 15px; }
+  .footer .li ul {
+    margin: 0;
+    padding: 0; }
+    .footer .li ul li {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 20px;
+      color: #2b78a6; }
+  .footer .social i {
+    color: #fff;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    border-radius: 50%;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
